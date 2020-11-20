@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<style>
+    button[disabled]
+    {cursor: default;}
+    button{
+        cursor: pointer;
+    }
+    /* 属性选择用法 */
+   
+</style>
+<html>
+    <head>
+        <title>
+            testing video
+        </title>
+    </head>
+    <body>
+        <!-- 浏览器会自动选择可以播放的音频来源 -->
+        <audio src ="testing video/file_example_MP3_700KB.mp3" controls= "controls" >
+        </audio>
+        <audio>
+            <source src="testing video/file_example_MP3_700KB.mp3" type="audio/mgep">
+            <source src="testing video/file_example_MP3_700KB.ogg" type="audio/ogg">
+        </audio>
+       <!--  针对不同的表单所需要做的是改变type类型 -->
+        <form action="">
+           <li>email: <input type ="email" required="required" ></li>
+           <li>tel: <input type="tel"></li>
+           <li><input type = "submit" value="submit"></li>
+
+              
+        </form>
+        <form action="">
+            username
+            <input text= "text" required="required" placeholder="try" autofocus="autofocus" name="username" autocomplete="on">
+            <input type= "submit" value="tijiao">
+            <input type="file" multiple>
+        </form>
+        <button>button></button>   
+        <button>button></button>
+        <button disabled="disabled">button></button>
+        <button>button></button>
+    
+    </body>
+</html>
