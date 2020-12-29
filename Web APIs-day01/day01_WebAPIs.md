@@ -100,6 +100,7 @@ DOM树 又称为文档树模型，把文档映射成树形结构，通过节点�
         // 因为我们文档页面从上往下加载，所以先得有标签 所以我们script写到标签的下面
         var timer = document.getElementById('time');
         console.log(timer);
+        // typeof output the type of id, it should be object
         console.log(typeof timer);
         // console.dir 打印我们返回的元素对象 更好的查看里面的属性和方法
         console.dir(timer);
