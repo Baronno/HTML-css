@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+      /* //后代选择器 */
+.nav a{
+color:pink
+}
+/* 交集选择器 */
+p.red{color: red;}
+/* 并集选择器,用都好连接 */
+p,span{
+  color: brown;
+}
+    </style>
+</head>
+
+<body>
+<!--//后代选择器解释  -->
+  
+<div class= 'nav'>
+  <a href="#">11</a>
+  <a href="#">22</a>
+  <a href="#">33</a>
+</div>
+<a href="#">11</a>
+<a href="#">22</a>
+<a href="#">33</a>
+</body>
+<!-- 交集选择器，既是又是 p.red-->
+
+<p class='red'>11</p>
+<p class=‘red’>11</p>
+<p>lanse</p>
+
+<!-- 并集选择器 -->
+<P>ni</P>
+<P>ni</P>
+<P>ni</P>
+<P>ni</P>
+<span>我我我</span>
+<span></span>
+<span></span>
+
+<P>ni</P>
+<P>ni</P>
+<div></div>
+</html>
