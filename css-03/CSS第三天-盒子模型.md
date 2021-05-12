@@ -2,8 +2,8 @@
 typora-copy-images-to: media
 ---
 
-> 第01阶段.前端基础.盒子模型
-# 盒子模型（CSS重点）
+> 第01阶段.前端基础.盒子模型  
+# 盒子模型（CSS重点）       
 
 css学习三大重点： css 盒子模型   、  浮动  、  定位  
 
@@ -51,15 +51,13 @@ css学习三大重点： css 盒子模型   、  浮动  、  定位
 
   **pink老师总结：**
 
-  * 盒子模型有元素的内容、边框（border）、内边距（padding）、和外边距（margin）组成。
+  * 盒子模型有元素的内容、边框（border）、内边距（padding）、和外边距（margin）组成
   * 盒子里面的文字和图片等元素是 内容区域
   * 盒子的厚度 我们成为 盒子的边框 
-  * 盒子内容与边框的距离是内边距（类似单元格的 cellpadding)
+  * 盒子内容与边框的距离是内边距（类似单元格的 cellpadding) 
   * 盒子与盒子之间的距离是外边距（类似单元格的 cellspacing）
 
 **标准盒子模型**
-
-
 
  <img src='./media/标准盒子模型.png'>
 
@@ -81,11 +79,11 @@ border : border-width || border-style || border-color
 
 - 边框的样式：
   - none：没有边框即忽略所有边框的宽度（默认值）
-  - solid：边框为单实线(最为常用的)
+  - solid：边框为单实线(最为常用的)  
   - dashed：边框为虚线  
-  - dotted：边框为点线
+  - dotted：边框为点线  
 
-### 3.1 边框综合设置
+### 3.1 边框综合设置   
 
 ```
 border : border-width || border-style || border-color 
@@ -94,7 +92,7 @@ border : border-width || border-style || border-color
 例如：
 
 ~~~css
- border: 1px solid red;  没有顺序  
+ border: 1px solid red;  没有顺序  .
 ~~~
 
 
@@ -385,9 +383,9 @@ margin: 10px auto;  /* 块级盒子水平居中  左右margin 改为 auto 就阔
 
 **解决方案：**
 
-1. 可以为父元素定义上边框。
+1. 可以为父元素定义上边框
 2. 可以为父元素定义上内边距
-2. 可以为父元素添加overflow:hidden。
+2. 可以为父元素添加overflow:hidden
 
 还有其他方法，比如浮动、固定、绝对定位的盒子不会有问题，后面咱们再总结。。。
 
